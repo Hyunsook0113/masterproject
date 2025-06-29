@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:gml="http://www.opengis.net/gml" xmlns:doc="http://www.mda.org.uk/spectrumXML/Documentation" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:smil20lang="http://www.w3.org/2001/SMIL20/Language" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lido:category>
+    <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00096">
+      <skos:prefLabel xml:lang="en">Human-made object</skos:prefLabel>
+      <skos:exactMatch>http://vocab.getty.edu/aat/300386957</skos:exactMatch>
+      <skos:exactMatch>http://erlangen-crm.org/current/E22_Human-Made_Object</skos:exactMatch>
+    </skos:Concept>
+    <lido:term lido:addedSearchTerm="yes">man-made object</lido:term>
+  </lido:category>
+  <lido:lido>
+    <lido:descriptiveMetadata xml:lang="en">
+      <lido:objectClassificationWrap>
+        <lido:objectWorkTypeWrap>
+          <lido:displayObjectWorkType>Video</lido:displayObjectWorkType>
+        </lido:objectWorkTypeWrap>
+      </lido:objectClassificationWrap>
+      <lido:objectIdentificationWrap>
+        <lido:titleWrap lido:type="http://vocab.getty.edu/aat/300417206">
+          <lido:titleSet>
+            <lido:objectTitle>
+              <lido:appellationValue>A Tribute to John Cage</lido:appellationValue>
+            </lido:objectTitle>
+          </lido:titleSet>
+        </lido:titleWrap>
+        <lido:objectMeasuremenstWrap>
+          <lido:objectMeasurementsSet>
+            <lido:displayObjectMeasurements>29:02 min.</lido:displayObjectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>
+                <skos:Concept rdf:about="https://www.wikidata.org/wiki/Property:P2047">
+                  <skos:prefLabel xml:lang="en">duration</skos:prefLabel>
+                  <skos:prefLabel xml:lang="de">Dauer</skos:prefLabel>
+                  <skos:mappingRelation>https://vocab.getty.edu/aat/300443981</skos:mappingRelation>
+                </skos:Concept>
+              </lido:measurementType>
+              <lido:measurementUnit>
+                <skos:Concept rdf:about="http://www.wikidata.org/wiki/Q7727">
+                  <skos:prefLabel xml:lang="en">minute(minutes)</skos:prefLabel>
+                  <skos:prefLabel xml:lang="de">Minute</skos:prefLabel>
+                  <skos:altLabel xml:lang="mul">min.</skos:altLabel>
+                  <skos:mappingRelation>https://vocab.getty.edu/aat/300379240</skos:mappingRelation>
+                </skos:Concept>
+              </lido:measurementUnit>
+              <lido:measurementValue>29</lido:measurementValue>
+            </lido:measurementsSet>
+            <lido:measurementsSet>
+              <lido:measurementType>
+                <skos:Concept rdf:about="https://www.wikidata.org/wiki/Property:P2047">
+                  <skos:prefLabel xml:lang="en">duration</skos:prefLabel>
+                  <skos:prefLabel xml:lang="de">Dauer</skos:prefLabel>
+                  <skos:mappingRelation>https://vocab.getty.edu/aat/300443981</skos:mappingRelation>
+                </skos:Concept>
+              </lido:measurementType>
+              <lido:measurementUnit>
+                <skos:Concept rdf:about="http://www.wikidata.org/wiki/Q11574">
+                  <skos:prefLabel xml:lang="en">second</skos:prefLabel>
+                  <skos:prefLabel xml:lang="de">Sekunde</skos:prefLabel>
+                  <skos:altLabel xml:lang="mul">sec.</skos:altLabel>
+                  <skos:mappingRelation>https://vocab.getty.edu/aat/300379239</skos:mappingRelation>
+                </skos:Concept>
+              </lido:measurementUnit>
+              <lido:measurementValue>2</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurementsSet>
+        </lido:objectMeasuremenstWrap>
+        <lido:ObjectMaterialsTechWrap>
+          <lido:ObjectMaterialsTechSet>
+            <lido:displayMaterialsTech>Video (color, sound)</lido:displayMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="http://terminology.lido-schema.org/lido00513">
+                <skos:Concept rdf:about="https://vocab.getty.edu/aat/300080438">
+                  <skos:prefLabel xml:lang="en">colors (hues or tints)</skos:prefLabel>
+                </skos:Concept>
+                <lido:term lido:addedSearchTerm="yes" xml:lang="de">Farbe</lido:term>
+                <lido:term lido:pref="http://terminology.lido-schema.org/lido00526" xml:lang="en">color</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="http://terminology.lido-schema.org/lido00513">
+                <skos:Concept rdf:about="https://vocab.getty.edu/aat/300387583">
+                  <skos:prefLabel xml:lang="en">sound art</skos:prefLabel>
+                </skos:Concept>
+                <lido:term lido:addedSearchTerm="yes" xml:lang="de">Ton</lido:term>
+                <lido:term lido:pref="http://terminology.lido-schema.org/lido00526" xml:lang="en">sound</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:ObjectMaterialsTechSet>
+        </lido:ObjectMaterialsTechWrap>
+        <lido:eventWrap>
+          <lido:eventSet>
+            <lido:event>
+              <lido:eventType>
+                <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00007">
+                  <lido:prefLabel xml:lang="en">Production</lido:prefLabel>
+                  <lido:prefLabel xml:lang="de">Herstellung</lido:prefLabel>
+                </skos:Concept>
+              </lido:eventType>
+              <lido:eventActor>
+                <lido:eventInRole>
+                  <lido:actorInRole>
+                    <lido:actor lido:type="http://terminology.lido-schema.org/lido00163">
+                      <lido:actorID lido:source="MoMA" lido:pref="http://terminology.lido-schema.org/lido00170" lido:type="http://terminology.lido-schema.org/lido00100">4469</lido:actorID>
+                      <lido:actorID lido:pref="http://terminology.lido-schema.org/lido00169" lido:type="http://terminology.lido-schema.org/lido00099">https://vocab.getty.edu/ulan/500118744</lido:actorID>
+                      <lido:nameActorSet>
+                        <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00526">Nam June Paik</lido:appellationValue>
+                      </lido:nameActorSet>
+                      <lido:nationalityActor lido:about="http://terminology.lido-schema.org/lido01026">
+                        <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00526">American</lido:appellationValue>
+                      </lido:nationalityActor>
+                      <lido:vitalDatesActor>
+                        <lido:earliestDate lido:type="http://terminology.lido-schema.org/lido00528">1932</lido:earliestDate>
+                        <lido:latestDate lido:type="http://terminology.lido-schema.org/lido00528">2006</lido:latestDate>
+                      </lido:vitalDatesActor>
+                      <lido:genderActor lido:type="http://terminology.lido-schema.org/lido00867">
+                        <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00774">
+                          <lido:prefLabel xml:lang="en">Male</lido:prefLabel>
+                          <lido:prefLabel xml:lang="de">Männlich</lido:prefLabel>
+                        </skos:Concept>
+                      </lido:genderActor>
+                      <lido:vitalPlaceActor>
+                        <lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/wiki/Q884</lido:placeID>
+                        <lido:namePlaceSet>
+                          <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="en">South Korea</lido:appellationValue>
+                          <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00170" xml:lang="en">Republic of Korea</lido:appellationValue>
+                        </lido:namePlaceSet>
+                        <lido:gml>
+                          <lido:Point>
+                            <lido:pos>36 128</lido:pos>
+                          </lido:Point>
+                        </lido:gml>
+                        <lido:partOfPlace/>
+                        <lido:placeClassification>
+                          <skos:Concept rdf:about="http://www.wikidata.org/wiki/Q6256">
+                            <skos:prefLabel xml:lang="en">country</skos:prefLabel>
+                            <skos:prefLabel xml:lang="de">Land</skos:prefLabel>
+                            <skos:altLabel xml:lang="de">Staat</skos:altLabel>
+                            <skos:mappingRelation>http://vocab.getty.edu/aat/300387506</skos:mappingRelation>
+                          </skos:Concept>
+                        </lido:placeClassification>
+                      </lido:vitalPlaceActor>
+                    </lido:actor>
+                  </lido:actorInRole>
+                </lido:eventInRole>
+              </lido:eventActor>
+              <lido:eventDate>
+                <lido:displayDate>1973/1976</lido:displayDate>
+                <lido:date>
+                  <lido:earliestDate lido:type="http://terminology.lido-schema.org/lido00528">1973/1976</lido:earliestDate>
+                  <lido:latestDate lido:type="http://terminology.lido-schema.org/lido00528">1973/1976</lido:latestDate>
+                </lido:date>
+              </lido:eventDate>
+            </lido:event>
+          </lido:eventSet>
+          <lido:eventSet>
+            <lido:event>
+              <lido:eventType>
+                <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00001">
+                  <lido:prefLabel xml:lang="en">Acquisition</lido:prefLabel>
+                  <lido:prefLabel xml:lang="de">Erwerbung</lido:prefLabel>
+                </skos:Concept>
+              </lido:eventType>
+              <lido:eventActor>
+                <lido:eventInRole>
+                  <lido:actorInRole>
+                    <lido:actor lido:type="http://terminology.lido-schema.org/lido00413">
+                      <lido:actorID lido:pref="http://terminology.lido-schema.org/lido00169" lido:type="http://terminology.lido-schema.org/lido00099">https://vocab.getty.edu/ulan/500303609</lido:actorID>
+                      <lido:nameActorSet>
+                        <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="en">Museum of Modern Art</lido:appellationValue>
+                        <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00170" xml:lang="en">MoMA</lido:appellationValue>
+                      </lido:nameActorSet>
+                    </lido:actor>
+                  </lido:actorInRole>
+                </lido:eventInRole>
+              </lido:eventActor>
+              <lido:eventDate>
+                <lido:displayDate>1992-02-15</lido:displayDate>
+                <lido:date>
+                  <lido:earliestDate lido:type="http://terminology.lido-schema.org/lido00528">1992-02-15</lido:earliestDate>
+                  <lido:latestDate lido:type="http://terminology.lido-schema.org/lido00528">1992-02-15</lido:latestDate>
+                </lido:date>
+              </lido:eventDate>
+            </lido:event>
+          </lido:eventSet>
+        </lido:eventWrap>
+        <lido:objectDescriptionWrap/>
+        <lido:objectDescriptionSet/>
+        <lido:objectDescriptionRights>
+          <lido:credit_line>Gift of the artist</lido:credit_line>
+        </lido:objectDescriptionRights>
+        <lido:objectID>122335</lido:objectID>
+        <lido:url>https://www.moma.org/collection/works/122335</lido:url>
+        <lido:imageURL>nan</lido:imageURL>
+        <lido:onView>nan</lido:onView>
+      </lido:objectIdentificationWrap>
+    </lido:descriptiveMetadata>
+    <lido:administrativeMetadata xml:lang="en">
+      <lido:recordWrap>
+        <lido:recordID lido:source="MoMA" lido:type="http://terminology.lido-schema.org/lido00100">540.1992</lido:recordID>
+        <lido:recordType>
+          <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00141">
+            <skos:prefLabel xml:lang="en">Item-level record</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Einzelobjekt (Katalogisierungsebene)</skos:prefLabel>
+          </skos:Concept>
+        </lido:recordType>
+        <lido:recordSource>
+          <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099">https://www.moma.org/</lido:legalBodyID>
+          <lido:legalBodyName>
+            <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="en">Museum of Modern Art</lido:appellationValue>
+            <lido:appellationValue xml:lang="en">MoMA</lido:appellationValue>
+            <lido:sourceAppellation xml:lang="en">MoMA. URL: https://www.moma.org/</lido:sourceAppellation>
+          </lido:legalBodyName>
+          <lido:legalBodyWeblink>https://www.moma.org/</lido:legalBodyWeblink>
+        </lido:recordSource>
+        <lido:recordRights>
+          <lido:creditLine>Gift of an Artist</lido:creditLine>
+        </lido:recordRights>
+        <lido:collection>
+          <lido:object>
+            <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100">122335</lido:objectID>
+            <lido:objectType lido:type="http://terminology.lido-schema.org/lido01032">
+              <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00007">
+                <lido:prefLabel xml:lang="en">Digital collection</lido:prefLabel>
+                <lido:prefLabel xml:lang="de">Digitale Sammlung</lido:prefLabel>
+              </skos:Concept>
+            </lido:objectType>
+          </lido:object>
+        </lido:collection>
+      </lido:recordWrap>
+    </lido:administrativeMetadata>
+  </lido:lido>
+</lido:lido>
