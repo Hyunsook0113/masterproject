@@ -1,0 +1,71 @@
+<lido:lido xmlns:lido="http://www.lido-schema.org" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<lido:descriptiveMetadata xml:lang="en">
+    <lido:objectClassificationWrap>
+        <lido:objectWorkTypeWrap>
+            <lido:objectWorkType lido:type="http://terminology.lido-schema.org/lido00789">
+                <skos:Concept rdf:about="https://vocab.getty.edu/aat/300102067">
+                    <skos:prefLabel xml:lang="en">video art</skos:prefLabel>
+                    <skos:prefLabel xml:lang="de">Video Kunst</skos:prefLabel>
+                    <skos:altLabel xml:lang="en">media art</skos:altLabel>
+                    <skos:altLabel xml:lang="de">Medienkunst</skos:altLabel>
+                </skos:Concept>
+            </lido:objectWorkType>
+        </lido:objectWorkTypeWrap>
+    </lido:objectClassificationWrap>
+    <lido:objectIdentificationWrap>
+    <lido:titleWrap>
+        <lido:titleSet>
+            <lido:appellationValue>A Tribute to John Cage</lido:appellationValue>
+        </lido:titleSet>
+    </lido:titleWrap>
+    </lido:objectIdentificationWrap>
+    <lido:objectRelationWrap>
+        <lido:relatedWorksWrap>
+            <lido:relatedWorkSet lido:sortorder="1">
+                <lido:displayRelatedWork xml:lang="en">
+                    John Cage, 4'33", 1952/1953
+                </lido:displayRelatedWork>
+                <lido:relatedWork>
+                    <lido:object>
+                        <lido:objectWebResource>
+                            https://www.moma.org/collection/works/163616
+                        </lido:objectWebResource>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00099" lido:source="The Museum of Modern Art, MoMA">
+                            163616
+                        </lido:objectID>
+                    </lido:object>
+                </lido:relatedWork>
+                <lido:relatedWorkRelType>
+                    <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00263">
+                        <skos:prefLabel xml:lang="en">
+                            is related to
+                        </skos:prefLabel>
+                    </skos:Concept>
+                </lido:relatedWorkRelType>
+            </lido:relatedWorkSet>
+            <lido:relatedWorkSet lido:sortorder="2">
+                <lido:displayRelatedWork xml:lang="en">
+                    Nam June Paik, Jud Yalkut, Waiting for Commercials, 1966-1972/1992
+                </lido:displayRelatedWork>
+                <lido:relatedWork>
+                    <lido:object>
+                        <lido:objectWebResource>
+                            https://www.moma.org/collection/works/120523
+                        </lido:objectWebResource>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00099" lido:source="The Museum of Modern Art, MoMA">
+                            120523
+                        </lido:objectID>
+                    </lido:object>
+                </lido:relatedWork>
+                <lido:relatedWorkRelType>
+                    <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00573">
+                        <skos:prefLabel xml:lang="en">
+                            has part
+                        </skos:prefLabel>
+                    </skos:Concept>
+                </lido:relatedWorkRelType>
+            </lido:relatedWorkSet>
+        </lido:relatedWorksWrap>
+    </lido:objectRelationWrap>
+</lido:descriptiveMetadata>
+</lido:lido>
