@@ -12,7 +12,14 @@
     <lido:descriptiveMetadata xml:lang="en">
       <lido:objectClassificationWrap>
         <lido:objectWorkTypeWrap>
-          <lido:displayObjectWorkType>Video</lido:displayObjectWorkType>
+          <lido:objectWorkType lido:type="http://terminology.lido-schema.org/lido00789">
+          <skos:Concept rdf:about="https://vocab.getty.edu/aat/300102067">
+            <skos:prefLabel xml:lang="en">video art</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Video Kunst</skos:prefLabel>
+            <skos:altLabel xml:lang="en">media art</skos:altLabel>  
+            <skos:altLabel xml:lang="de">Medienkunst</skos:altLabel>  
+          </skos:Concept>
+         </lido:objectWorkType>
         </lido:objectWorkTypeWrap>
       </lido:objectClassificationWrap>
       <lido:objectIdentificationWrap>
