@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
+    <crm:E22_Man-Made_Object rdf:about="https://www.moma.org/collection/works/122335">
+        <crm:P1_is_identified_by>122335</crm:P1_is_identified_by>
+        <crm:P102_has_title xml:lang="en">A Tribute to John Cage</crm:P102_has_title>
+        <crm:P5_consists_of rdf:resource="https://www.moma.org/collection/works/120523"/>
+        <crm:P15_was_influenced_by rdf:resource="https://www.moma.org/collection/works/163616"/>
+    </crm:E22_Man-Made_Object>
+
+    <crm:E22_Man-Made_Object rdf:about="https://www.moma.org/collection/works/163616">
+        <crm:P1_is_identified_by>163616</crm:P1_is_identified_by>
+        <crm:P102_has_title xml:lang="en">4'33"</crm:P102_has_title>
+    </crm:E22_Man-Made_Object>
+
+    <crm:E22_Man-Made_Object rdf:about="https://www.moma.org/collection/works/120523">
+        <crm:P1_is_identified_by>120523</crm:P1_is_identified_by>
+        <crm:P102_has_title xml:lang="en">Waiting for Commercials</crm:P102_has_title>
+    </crm:E22_Man-Made_Object>
+</rdf:RDF>
